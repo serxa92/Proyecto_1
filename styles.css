@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+ul {
+  list-style-type: none;
+}
+
+
+.novedades, .mejores, .footer-menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 10px;
+    
+   
+    
+}
+.ofertas,.coolpc,.destacadas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1;
+    padding: 10px;
+}
+.por-que{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.blog{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
